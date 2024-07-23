@@ -4,9 +4,6 @@ let listaNumerosSorteados = [];
 let numeroMaximo = 10;
 
 
-console.log(numeroSecreto);
-
-
 function asignarTextoElemento(elemento, texto) {
     let elementoHTML = document.querySelector(elemento);
     elementoHTML.innerHTML = texto;
